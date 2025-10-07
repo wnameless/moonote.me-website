@@ -1,0 +1,17 @@
+{
+  "name": "moonote-me-website",
+  "version": "1.0.0",
+  "description": "Moonote Co., Ltd. company website - Static SPA with 4-language support",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'Production build (optional Tailwind CLI)'",
+    "build:tailwind": "npx tailwindcss -o ./assets/styles/tailwind.css --minify"
+  },
+  "keywords": ["static", "spa", "i18n", "tailwindcss"],
+  "author": "Moonote Co., Ltd.",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "tailwindcss": "^3.3.0",
+    "prettier": "^3.0.0"
+  }
+}

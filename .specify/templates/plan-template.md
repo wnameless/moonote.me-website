@@ -47,7 +47,38 @@
 ## Constitution Check
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+### Static-First Architecture (Principle I)
+- [ ] No server-side rendering or API routes in SPA codebase
+- [ ] Build outputs static assets only (HTML/CSS/JS)
+- [ ] External API consumption via client-side fetch
+
+### Edge-First Performance (Principle II)
+- [ ] Core Web Vitals targets documented (LCP, FID, CLS)
+- [ ] Asset optimization strategy defined (lazy loading, code splitting)
+- [ ] Edge caching headers planned
+
+### Zero-Config Deployment (Principle III)
+- [ ] Cloudflare Pages build command specified
+- [ ] No manual deployment steps required
+- [ ] Environment variables strategy defined
+
+### Progressive Enhancement (Principle IV)
+- [ ] Semantic HTML planned for core content
+- [ ] Accessibility considerations documented (ARIA, screen readers)
+
+### Developer Experience (Principle V)
+- [ ] Single-command dev environment setup
+- [ ] HMR/fast refresh configured
+- [ ] Linting/formatting tools specified
+
+### Content-First Design (Principle VI)
+- [ ] Design serves content readability
+- [ ] No unjustified animations or heavy frameworks
+- [ ] Component reusability planned
+
+### Version Control as Source of Truth (Principle VII)
+- [ ] All changes via Git → Cloudflare pipeline
+- [ ] No manual production file edits
 
 ## Project Structure
 
@@ -216,4 +247,4 @@ directories captured above]
 - [ ] Complexity deviations documented
 
 ---
-*Based on Constitution v2.1.1 - See `/memory/constitution.md`*
+*Based on Constitution v1.0.0 - See `.specify/memory/constitution.md`*

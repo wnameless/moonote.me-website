@@ -45,50 +45,57 @@
 ## Phase 3.1: Setup
 - [ ] T001 Create project structure per implementation plan
 - [ ] T002 Initialize [language] project with [framework] dependencies
-- [ ] T003 [P] Configure linting and formatting tools
+- [ ] T003 [P] Configure linting and formatting tools (ESLint/Prettier)
+- [ ] T004 [P] Configure build tool and output directory for Cloudflare Pages
 
 ## Phase 3.2: Tests First (TDD) ⚠️ MUST COMPLETE BEFORE 3.3
 **CRITICAL: These tests MUST be written and MUST FAIL before ANY implementation**
-- [ ] T004 [P] Contract test POST /api/users in tests/contract/test_users_post.py
-- [ ] T005 [P] Contract test GET /api/users/{id} in tests/contract/test_users_get.py
-- [ ] T006 [P] Integration test user registration in tests/integration/test_registration.py
-- [ ] T007 [P] Integration test auth flow in tests/integration/test_auth.py
+*Note: For SPA projects, contract tests verify component APIs and integration tests verify user flows.*
+
+- [ ] T005 [P] Component test for [Component] in tests/component/test_component.test.ts
+- [ ] T006 [P] Integration test for [User Flow] in tests/integration/test_flow.test.ts
+- [ ] T007 [P] Accessibility test for [Feature] in tests/a11y/test_accessibility.test.ts
 
 ## Phase 3.3: Core Implementation (ONLY after tests are failing)
-- [ ] T008 [P] User model in src/models/user.py
-- [ ] T009 [P] UserService CRUD in src/services/user_service.py
-- [ ] T010 [P] CLI --create-user in src/cli/user_commands.py
-- [ ] T011 POST /api/users endpoint
-- [ ] T012 GET /api/users/{id} endpoint
-- [ ] T013 Input validation
-- [ ] T014 Error handling and logging
+*Adjust task types based on feature requirements (components, utilities, state management, etc.)*
 
-## Phase 3.4: Integration
-- [ ] T015 Connect UserService to DB
-- [ ] T016 Auth middleware
-- [ ] T017 Request/response logging
-- [ ] T018 CORS and security headers
+- [ ] T008 [P] Create [Component] in src/components/Component.tsx
+- [ ] T009 [P] Implement [utility/hook] in src/utils/utility.ts
+- [ ] T010 [P] Add state management for [feature] in src/store/feature.ts
+- [ ] T011 Create [page/view] component in src/pages/Page.tsx
+- [ ] T012 Implement form validation for [form]
+- [ ] T013 Error handling and user feedback
 
-## Phase 3.5: Polish
-- [ ] T019 [P] Unit tests for validation in tests/unit/test_validation.py
-- [ ] T020 Performance tests (<200ms)
-- [ ] T021 [P] Update docs/api.md
-- [ ] T022 Remove duplication
-- [ ] T023 Run manual-testing.md
+## Phase 3.4: Integration & Optimization
+*Focus on asset optimization, routing, and external API integration for SPA*
+
+- [ ] T014 Implement routing and navigation
+- [ ] T015 Integrate with external APIs (if applicable)
+- [ ] T016 Configure lazy loading and code splitting
+- [ ] T017 Optimize images (WebP/AVIF, responsive srcsets)
+- [ ] T018 Configure caching headers and service worker (optional)
+
+## Phase 3.5: Polish & Deployment
+- [ ] T019 [P] Unit tests for edge cases and utilities
+- [ ] T020 Verify Core Web Vitals targets (LCP, FID, CLS)
+- [ ] T021 [P] Accessibility audit (ARIA, keyboard navigation)
+- [ ] T022 Bundle size analysis and optimization
+- [ ] T023 Create/verify Cloudflare Pages configuration
+- [ ] T024 Test build process and preview deployment
+- [ ] T025 Run manual-testing.md (quickstart validation)
 
 ## Dependencies
-- Tests (T004-T007) before implementation (T008-T014)
-- T008 blocks T009, T015
-- T016 blocks T018
-- Implementation before polish (T019-T023)
+- Setup (T001-T004) before tests and implementation
+- Tests (T005-T007) before implementation (T008-T013)
+- Core implementation (T008-T013) before integration & optimization (T014-T018)
+- All implementation complete before polish & deployment (T019-T025)
 
 ## Parallel Example
 ```
-# Launch T004-T007 together:
-Task: "Contract test POST /api/users in tests/contract/test_users_post.py"
-Task: "Contract test GET /api/users/{id} in tests/contract/test_users_get.py"
-Task: "Integration test registration in tests/integration/test_registration.py"
-Task: "Integration test auth in tests/integration/test_auth.py"
+# Launch T005-T007 together:
+Task: "Component test for Button in tests/component/test_button.test.ts"
+Task: "Integration test for user login flow in tests/integration/test_login.test.ts"
+Task: "Accessibility test for form in tests/a11y/test_form_accessibility.test.ts"
 ```
 
 ## Notes

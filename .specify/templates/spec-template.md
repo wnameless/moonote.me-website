@@ -79,6 +79,8 @@ When creating this spec from a user prompt:
 - **FR-007**: System MUST retain user data for [NEEDS CLARIFICATION: retention period not specified]
 
 ### Key Entities *(include if feature involves data)*
+*Note: For SPA projects, entities typically represent client-side data models or API response shapes, not backend database entities.*
+
 - **[Entity 1]**: [What it represents, key attributes without implementation]
 - **[Entity 2]**: [What it represents, relationships to other entities]
 

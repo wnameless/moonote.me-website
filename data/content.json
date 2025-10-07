@@ -1,0 +1,614 @@
+{
+  "en": {
+    "companyName": "Moonote Co., Ltd.",
+    "tagline": "Building Tomorrow's Enterprise Solutions Today",
+    "aboutUs": {
+      "title": "About Us",
+      "description": "Moonote Co., Ltd. is a software technology company focused on enterprise application development frameworks and industry-specific solutions. We are committed to providing efficient, secure, and scalable information management systems for academic research institutions, medical organizations, and corporate clients."
+    },
+    "frameworkFeatures": {
+      "title": "Self-Developed Framework Technology",
+      "items": [
+        {
+          "name": "Out-of-box RESTful API Operations",
+          "description": "Standard REST operations ready to use without configuration."
+        },
+        {
+          "name": "Dynamic Data-Driven Form Integration",
+          "description": "Zero frontend development required for form generation."
+        },
+        {
+          "name": "NoSQL Database Enhanced Support",
+          "description": "Includes audit trails and advanced filtering capabilities."
+        },
+        {
+          "name": "Built-in Permissions Management",
+          "description": "Multi-tenant architecture with role-based access control."
+        },
+        {
+          "name": "Modern Frontend-Backend Integration",
+          "description": "Seamless user experience with cutting-edge technology."
+        }
+      ]
+    },
+    "functionalModules": {
+      "title": "Functional Modules Library",
+      "modules": [
+        {
+          "name": "Supplier Management",
+          "description": "Comprehensive vendor management system",
+          "capabilities": ["Vendor data maintenance", "Product catalog management", "Procurement tracking"]
+        },
+        {
+          "name": "Inventory Management",
+          "description": "Real-time inventory tracking and alerts",
+          "capabilities": ["Real-time inventory monitoring", "In/out records", "Stock alerts"]
+        },
+        {
+          "name": "Application Workflow",
+          "description": "Multi-stage workflow management",
+          "capabilities": ["Multi-stage workflows", "Online form submission", "Automatic review assignment"]
+        },
+        {
+          "name": "Review Management",
+          "description": "Committee and decision tracking system",
+          "capabilities": ["Committee management", "Review opinion consolidation", "Decision tracking"]
+        },
+        {
+          "name": "Version Control",
+          "description": "Document history and change management",
+          "capabilities": ["Document history tracking", "Change tracking", "Revision management"]
+        },
+        {
+          "name": "Organization Permissions",
+          "description": "Hierarchical access control system",
+          "capabilities": ["Hierarchical organization structure", "Role inheritance", "Fine-grained permission control"]
+        },
+        {
+          "name": "Compliance Tracking",
+          "description": "Regulatory compliance management",
+          "capabilities": ["Regulatory standards management", "Security audits", "Report generation"]
+        },
+        {
+          "name": "Waste Disposal",
+          "description": "Waste management and compliance reporting",
+          "capabilities": ["Waste classification", "Disposal procedures", "Compliance reporting"]
+        }
+      ]
+    },
+    "industrySolutions": {
+      "title": "Industry Solutions",
+      "solutions": [
+        {
+          "name": "Chemical Management System",
+          "modules": ["Supplier Management", "Inventory Management", "Organization Permissions", "Compliance Tracking", "Waste Disposal"],
+          "industries": ["Academic research institutions", "Chemical enterprises", "Laboratory management units"]
+        },
+        {
+          "name": "Research Ethics Review System",
+          "modules": ["Application Workflow", "Review Management", "Version Control", "Organization Permissions"],
+          "industries": ["University ethics committees", "Medical institutions", "Research units"]
+        },
+        {
+          "name": "Enterprise Procurement Management System",
+          "modules": ["Supplier Management", "Application Workflow", "Inventory Management", "Organization Permissions"],
+          "industries": ["Medium to large enterprises", "Government agencies", "Medical institutions"]
+        },
+        {
+          "name": "Document Review Platform",
+          "modules": ["Application Workflow", "Review Management", "Version Control", "Organization Permissions"],
+          "industries": ["Publishing industry", "Educational institutions", "Certification organizations"]
+        }
+      ]
+    },
+    "technicalCapabilities": {
+      "title": "Technical Innovation",
+      "items": [
+        "Latest enterprise technology stack and development standards",
+        "Type-safe dynamic query construction",
+        "High-performance object conversion and data mapping",
+        "Enterprise authentication protocols (cloud auth, enterprise SSO)",
+        "Complete data version tracking and audit system"
+      ]
+    },
+    "developmentEfficiency": {
+      "title": "Development Efficiency",
+      "items": [
+        "Dynamic code generation (70% reduction in repetitive work)",
+        "Schema-driven UI automatic generation",
+        "Comprehensive test coverage and continuous integration",
+        "Modular architecture design for easy maintenance and expansion"
+      ]
+    },
+    "commitments": {
+      "title": "Our Commitments",
+      "items": [
+        {
+          "title": "Self-Developed Technology",
+          "description": "Core framework completely self-developed, independent from third-party frameworks"
+        },
+        {
+          "title": "Open-Source Spirit",
+          "description": "Some frameworks are open-sourced to contribute back to the developer community"
+        },
+        {
+          "title": "Continuous Innovation",
+          "description": "Keeping pace with technology trends, adopting the latest stable technologies"
+        },
+        {
+          "title": "Professional Support",
+          "description": "Deep understanding of industry needs, providing customized solutions"
+        }
+      ]
+    },
+    "contactInfo": {
+      "email": "info@moonote.me",
+      "phone": "(+886) 02-23956600",
+      "address": "2F, No. 31, Sec. 2, Nanchang Rd., Taipei 100, Taiwan",
+      "addressChinese": "100 台北市南昌路二段31號2樓"
+    },
+    "ui": {
+      "languageToggle": "Language",
+      "switchLanguage": "Switch Language"
+    }
+  },
+  "zh-TW": {
+    "companyName": "月本股份有限公司",
+    "tagline": "打造明日企業解決方案",
+    "aboutUs": {
+      "title": "關於我們",
+      "description": "月本股份有限公司是一家專注於企業級應用開發框架與行業解決方案的軟體科技公司。我們致力於為學術研究機構、醫療組織及企業客戶提供高效、安全、可擴展的資訊管理系統。"
+    },
+    "frameworkFeatures": {
+      "title": "自主研發框架技術",
+      "items": [
+        {
+          "name": "開箱即用的 RESTful API 標準操作",
+          "description": "無需配置即可使用的標準 REST 操作。"
+        },
+        {
+          "name": "動態資料驅動表單整合",
+          "description": "實現零前端開發的表單生成。"
+        },
+        {
+          "name": "NoSQL 資料庫增強支援",
+          "description": "包含審計追蹤與進階篩選功能。"
+        },
+        {
+          "name": "內建權限管理",
+          "description": "多租戶架構與角色型存取控制。"
+        },
+        {
+          "name": "現代化前後端整合技術",
+          "description": "以尖端技術打造流暢的使用者體驗。"
+        }
+      ]
+    },
+    "functionalModules": {
+      "title": "豐富的功能模組庫",
+      "modules": [
+        {
+          "name": "供應商管理模組",
+          "description": "全方位廠商管理系統",
+          "capabilities": ["供應商資料維護", "產品目錄管理", "採購追蹤"]
+        },
+        {
+          "name": "庫存管理模組",
+          "description": "即時庫存追蹤與預警",
+          "capabilities": ["即時庫存監控", "入庫出庫記錄", "庫存預警"]
+        },
+        {
+          "name": "申請流程模組",
+          "description": "多階段工作流管理",
+          "capabilities": ["多階段申請工作流", "線上表單提交", "自動審查分派"]
+        },
+        {
+          "name": "審查管理模組",
+          "description": "委員會與決策追蹤系統",
+          "capabilities": ["委員會管理", "審查意見彙整", "決議追蹤"]
+        },
+        {
+          "name": "版本控制模組",
+          "description": "文件歷史與變更管理",
+          "capabilities": ["文件歷史記錄", "變更追蹤", "修訂管理"]
+        },
+        {
+          "name": "組織權限模組",
+          "description": "階層式存取控制系統",
+          "capabilities": ["階層式組織架構", "角色繼承", "精細化權限控制"]
+        },
+        {
+          "name": "合規追蹤模組",
+          "description": "法規遵循管理",
+          "capabilities": ["法規標準管理", "安全檢核", "報表生成"]
+        },
+        {
+          "name": "廢棄物處理模組",
+          "description": "廢棄物管理與合規申報",
+          "capabilities": ["廢棄物分類", "處置流程", "合規申報"]
+        }
+      ]
+    },
+    "industrySolutions": {
+      "title": "客製化行業解決方案",
+      "solutions": [
+        {
+          "name": "化學品管理系統",
+          "modules": ["供應商管理", "庫存管理", "組織權限", "合規追蹤", "廢棄物處理"],
+          "industries": ["學術研究機構", "化工企業", "實驗室管理單位"]
+        },
+        {
+          "name": "研究倫理審查系統",
+          "modules": ["申請流程", "審查管理", "版本控制", "組織權限"],
+          "industries": ["大學倫理委員會", "醫療機構", "研究單位"]
+        },
+        {
+          "name": "企業採購管理系統",
+          "modules": ["供應商管理", "申請流程", "庫存管理", "組織權限"],
+          "industries": ["中大型企業", "政府機關", "醫療院所"]
+        },
+        {
+          "name": "文件審查平台",
+          "modules": ["申請流程", "審查管理", "版本控制", "組織權限"],
+          "industries": ["出版業", "教育機構", "認證單位"]
+        }
+      ]
+    },
+    "technicalCapabilities": {
+      "title": "技術創新能力",
+      "items": [
+        "採用最新企業級技術棧與開發標準",
+        "類型安全的動態查詢建構技術",
+        "高效能物件轉換與資料映射機制",
+        "支援多種企業級身份認證協定（雲端認證、企業 SSO）",
+        "完整的資料版本追蹤與審計系統"
+      ]
+    },
+    "developmentEfficiency": {
+      "title": "高效開發流程",
+      "items": [
+        "動態程式碼生成技術，減少 70% 重複性開發工作",
+        "Schema 驅動的 UI 自動生成機制",
+        "完善的測試覆蓋與持續整合流程",
+        "模組化架構設計，易於維護與擴展"
+      ]
+    },
+    "commitments": {
+      "title": "我們的承諾",
+      "items": [
+        {
+          "title": "自主技術",
+          "description": "核心框架完全自主開發，不受第三方框架限制"
+        },
+        {
+          "title": "開源精神",
+          "description": "部分框架採開源授權，回饋開發者社群"
+        },
+        {
+          "title": "持續創新",
+          "description": "緊跟技術趨勢，採用最新穩定技術"
+        },
+        {
+          "title": "專業支援",
+          "description": "深入理解產業需求，提供客製化解決方案"
+        }
+      ]
+    },
+    "contactInfo": {
+      "email": "info@moonote.me",
+      "phone": "(+886) 02-23956600",
+      "address": "2F, No. 31, Sec. 2, Nanchang Rd., Taipei 100, Taiwan",
+      "addressChinese": "100 台北市南昌路二段31號2樓"
+    },
+    "ui": {
+      "languageToggle": "語言",
+      "switchLanguage": "切換語言"
+    }
+  },
+  "zh-CN": {
+    "companyName": "月本股份有限公司",
+    "tagline": "打造明日企业解决方案",
+    "aboutUs": {
+      "title": "关于我们",
+      "description": "月本股份有限公司是一家专注于企业级应用开发框架与行业解决方案的软件科技公司。我们致力于为学术研究机构、医疗组织及企业客户提供高效、安全、可扩展的信息管理系统。"
+    },
+    "frameworkFeatures": {
+      "title": "自主研发框架技术",
+      "items": [
+        {
+          "name": "开箱即用的 RESTful API 标准操作",
+          "description": "无需配置即可使用的标准 REST 操作。"
+        },
+        {
+          "name": "动态数据驱动表单整合",
+          "description": "实现零前端开发的表单生成。"
+        },
+        {
+          "name": "NoSQL 数据库增强支持",
+          "description": "包含审计追踪与高级筛选功能。"
+        },
+        {
+          "name": "内建权限管理",
+          "description": "多租户架构与基于角色的访问控制。"
+        },
+        {
+          "name": "现代化前后端整合技术",
+          "description": "以尖端技术打造流畅的用户体验。"
+        }
+      ]
+    },
+    "functionalModules": {
+      "title": "丰富的功能模块库",
+      "modules": [
+        {
+          "name": "供应商管理模块",
+          "description": "全方位厂商管理系统",
+          "capabilities": ["供应商资料维护", "产品目录管理", "采购追踪"]
+        },
+        {
+          "name": "库存管理模块",
+          "description": "实时库存追踪与预警",
+          "capabilities": ["实时库存监控", "入库出库记录", "库存预警"]
+        },
+        {
+          "name": "申请流程模块",
+          "description": "多阶段工作流管理",
+          "capabilities": ["多阶段申请工作流", "在线表单提交", "自动审查分派"]
+        },
+        {
+          "name": "审查管理模块",
+          "description": "委员会与决策追踪系统",
+          "capabilities": ["委员会管理", "审查意见汇整", "决议追踪"]
+        },
+        {
+          "name": "版本控制模块",
+          "description": "文档历史与变更管理",
+          "capabilities": ["文档历史记录", "变更追踪", "修订管理"]
+        },
+        {
+          "name": "组织权限模块",
+          "description": "层级式访问控制系统",
+          "capabilities": ["层级式组织架构", "角色继承", "精细化权限控制"]
+        },
+        {
+          "name": "合规追踪模块",
+          "description": "法规遵循管理",
+          "capabilities": ["法规标准管理", "安全检核", "报表生成"]
+        },
+        {
+          "name": "废弃物处理模块",
+          "description": "废弃物管理与合规申报",
+          "capabilities": ["废弃物分类", "处置流程", "合规申报"]
+        }
+      ]
+    },
+    "industrySolutions": {
+      "title": "定制化行业解决方案",
+      "solutions": [
+        {
+          "name": "化学品管理系统",
+          "modules": ["供应商管理", "库存管理", "组织权限", "合规追踪", "废弃物处理"],
+          "industries": ["学术研究机构", "化工企业", "实验室管理单位"]
+        },
+        {
+          "name": "研究伦理审查系统",
+          "modules": ["申请流程", "审查管理", "版本控制", "组织权限"],
+          "industries": ["大学伦理委员会", "医疗机构", "研究单位"]
+        },
+        {
+          "name": "企业采购管理系统",
+          "modules": ["供应商管理", "申请流程", "库存管理", "组织权限"],
+          "industries": ["中大型企业", "政府机关", "医疗院所"]
+        },
+        {
+          "name": "文档审查平台",
+          "modules": ["申请流程", "审查管理", "版本控制", "组织权限"],
+          "industries": ["出版业", "教育机构", "认证单位"]
+        }
+      ]
+    },
+    "technicalCapabilities": {
+      "title": "技术创新能力",
+      "items": [
+        "采用最新企业级技术栈与开发标准",
+        "类型安全的动态查询构建技术",
+        "高性能对象转换与数据映射机制",
+        "支持多种企业级身份认证协议（云端认证、企业 SSO）",
+        "完整的数据版本追踪与审计系统"
+      ]
+    },
+    "developmentEfficiency": {
+      "title": "高效开发流程",
+      "items": [
+        "动态代码生成技术，减少 70% 重复性开发工作",
+        "Schema 驱动的 UI 自动生成机制",
+        "完善的测试覆盖与持续集成流程",
+        "模块化架构设计，易于维护与扩展"
+      ]
+    },
+    "commitments": {
+      "title": "我们的承诺",
+      "items": [
+        {
+          "title": "自主技术",
+          "description": "核心框架完全自主开发，不受第三方框架限制"
+        },
+        {
+          "title": "开源精神",
+          "description": "部分框架采开源许可，回馈开发者社区"
+        },
+        {
+          "title": "持续创新",
+          "description": "紧跟技术趋势，采用最新稳定技术"
+        },
+        {
+          "title": "专业支持",
+          "description": "深入理解产业需求，提供定制化解决方案"
+        }
+      ]
+    },
+    "contactInfo": {
+      "email": "info@moonote.me",
+      "phone": "(+886) 02-23956600",
+      "address": "2F, No. 31, Sec. 2, Nanchang Rd., Taipei 100, Taiwan",
+      "addressChinese": "100 台北市南昌路二段31号2楼"
+    },
+    "ui": {
+      "languageToggle": "语言",
+      "switchLanguage": "切换语言"
+    }
+  },
+  "th": {
+    "companyName": "Moonote Co., Ltd.",
+    "tagline": "สร้างโซลูชันระดับองค์กรแห่งอนาคต",
+    "aboutUs": {
+      "title": "เกี่ยวกับเรา",
+      "description": "Moonote Co., Ltd. เป็นบริษัทเทคโนโลยีซอฟต์แวร์ที่มุ่งเน้นการพัฒนากรอบงานแอปพลิเคชันระดับองค์กรและโซลูชันเฉพาะอุตสาหกรรม เรามุ่งมั่นที่จะให้บริการระบบการจัดการข้อมูลที่มีประสิทธิภาพ ปลอดภัย และขยายได้สำหรับสถาบันวิจัยทางวิชาการ องค์กรทางการแพทย์ และลูกค้าองค์กร"
+    },
+    "frameworkFeatures": {
+      "title": "เทคโนโลยีกรอบงานที่พัฒนาเอง",
+      "items": [
+        {
+          "name": "การดำเนินการ RESTful API ที่พร้อมใช้งาน",
+          "description": "การดำเนินการ REST มาตรฐานที่พร้อมใช้งานโดยไม่ต้องกำหนดค่า"
+        },
+        {
+          "name": "การรวมฟอร์มที่ขับเคลื่อนด้วยข้อมูลแบบไดนามิก",
+          "description": "การสร้างฟอร์มโดยไม่ต้องพัฒนาส่วนหน้าเลย"
+        },
+        {
+          "name": "การสนับสนุน NoSQL ที่ได้รับการปรับปรุง",
+          "description": "รวมถึงการติดตามการตรวจสอบและความสามารถในการกรองขั้นสูง"
+        },
+        {
+          "name": "การจัดการสิทธิ์ในตัว",
+          "description": "สถาปัตยกรรมแบบหลายผู้เช่าพร้อมการควบคุมการเข้าถึงตามบทบาท"
+        },
+        {
+          "name": "เทคโนโลยีการบูรณาการส่วนหน้า-หลังสมัยใหม่",
+          "description": "ประสบการณ์ผู้ใช้ที่ราบรื่นด้วยเทคโนโลยีล้ำสมัย"
+        }
+      ]
+    },
+    "functionalModules": {
+      "title": "ห้องสมุดโมดูลฟังก์ชัน",
+      "modules": [
+        {
+          "name": "การจัดการซัพพลายเออร์",
+          "description": "ระบบการจัดการผู้จำหน่ายที่ครอบคลุม",
+          "capabilities": ["การบำรุงรักษาข้อมูลผู้จำหน่าย", "การจัดการแคตตาล็อกผลิตภัณฑ์", "การติดตามการจัดซื้อ"]
+        },
+        {
+          "name": "การจัดการสินค้าคงคลัง",
+          "description": "การติดตามสินค้าคงคลังแบบเรียลไทม์และการแจ้งเตือน",
+          "capabilities": ["การติดตามสินค้าคงคลังแบบเรียลไทม์", "บันทึกสินค้าเข้า/ออก", "การแจ้งเตือนสต็อก"]
+        },
+        {
+          "name": "ขั้นตอนการสมัคร",
+          "description": "การจัดการเวิร์กโฟลว์หลายขั้นตอน",
+          "capabilities": ["เวิร์กโฟลว์การสมัครหลายขั้นตอน", "การส่งแบบฟอร์มออนไลน์", "การมอบหมายการตรวจสอบอัตโนมัติ"]
+        },
+        {
+          "name": "การจัดการการตรวจสอบ",
+          "description": "ระบบการติดตามคณะกรรมการและการตัดสินใจ",
+          "capabilities": ["การจัดการคณะกรรมการ", "การรวบรวมความเห็นการตรวจสอบ", "การติดตามการตัดสินใจ"]
+        },
+        {
+          "name": "การควบคุมเวอร์ชัน",
+          "description": "ประวัติเอกสารและการจัดการการเปลี่ยนแปลง",
+          "capabilities": ["การติดตามประวัติเอกสาร", "การติดตามการเปลี่ยนแปลง", "การจัดการการแก้ไข"]
+        },
+        {
+          "name": "สิทธิ์องค์กร",
+          "description": "ระบบการควบคุมการเข้าถึงแบบลำดับชั้น",
+          "capabilities": ["โครงสร้างองค์กรแบบลำดับชั้น", "การสืบทอดบทบาท", "การควบคุมสิทธิ์ที่ละเอียด"]
+        },
+        {
+          "name": "การติดตามการปฏิบัติตาม",
+          "description": "การจัดการการปฏิบัติตามกฎระเบียบ",
+          "capabilities": ["การจัดการมาตรฐานกฎระเบียบ", "การตรวจสอบความปลอดภัย", "การสร้างรายงาน"]
+        },
+        {
+          "name": "การกำจัดของเสีย",
+          "description": "การจัดการของเสียและการรายงานการปฏิบัติตาม",
+          "capabilities": ["การจำแนกของเสีย", "ขั้นตอนการกำจัด", "การรายงานการปฏิบัติตาม"]
+        }
+      ]
+    },
+    "industrySolutions": {
+      "title": "โซลูชันอุตสาหกรรม",
+      "solutions": [
+        {
+          "name": "ระบบจัดการสารเคมี",
+          "modules": ["การจัดการซัพพลายเออร์", "การจัดการสินค้าคงคลัง", "สิทธิ์องค์กร", "การติดตามการปฏิบัติตาม", "การกำจัดของเสีย"],
+          "industries": ["สถาบันวิจัยทางวิชาการ", "องค์กรเคมี", "หน่วยจัดการห้องปฏิบัติการ"]
+        },
+        {
+          "name": "ระบบตรวจสอบจริยธรรมการวิจัย",
+          "modules": ["ขั้นตอนการสมัคร", "การจัดการการตรวจสอบ", "การควบคุมเวอร์ชัน", "สิทธิ์องค์กร"],
+          "industries": ["คณะกรรมการจริยธรรมมหาวิทยาลัย", "สถาบันการแพทย์", "หน่วยวิจัย"]
+        },
+        {
+          "name": "ระบบจัดการการจัดซื้อองค์กร",
+          "modules": ["การจัดการซัพพลายเออร์", "ขั้นตอนการสมัคร", "การจัดการสินค้าคงคลัง", "สิทธิ์องค์กร"],
+          "industries": ["องค์กรขนาดกลางถึงใหญ่", "หน่วยงานราชการ", "สถาบันการแพทย์"]
+        },
+        {
+          "name": "แพลตฟอร์มตรวจสอบเอกสาร",
+          "modules": ["ขั้นตอนการสมัคร", "การจัดการการตรวจสอบ", "การควบคุมเวอร์ชัน", "สิทธิ์องค์กร"],
+          "industries": ["อุตสาหกรรมสิ่งพิมพ์", "สถาบันการศึกษา", "องค์กรรับรอง"]
+        }
+      ]
+    },
+    "technicalCapabilities": {
+      "title": "นวัตกรรมทางเทคนิค",
+      "items": [
+        "กลุ่มเทคโนโลยีระดับองค์กรและมาตรฐานการพัฒนาล่าสุด",
+        "การสร้างคิวรีแบบไดนามิกที่ปลอดภัยต่อประเภท",
+        "การแปลงอ็อบเจ็กต์และการแมปข้อมูลประสิทธิภาพสูง",
+        "โปรโตคอลการรับรองความถูกต้องระดับองค์กร (การรับรองคลาวด์, SSO ขององค์กร)",
+        "ระบบติดตามเวอร์ชันข้อมูลและการตรวจสอบที่สมบูรณ์"
+      ]
+    },
+    "developmentEfficiency": {
+      "title": "ประสิทธิภาพการพัฒนา",
+      "items": [
+        "การสร้างโค้ดแบบไดนามิก (ลดงานซ้ำ ๆ 70%)",
+        "การสร้าง UI อัตโนมัติที่ขับเคลื่อนด้วยสคีมา",
+        "การครอบคลุมการทดสอบที่ครอบคลุมและการรวมอย่างต่อเนื่อง",
+        "การออกแบบสถาปัตยกรรมแบบโมดูลาร์เพื่อการบำรุงรักษาและการขยายที่ง่าย"
+      ]
+    },
+    "commitments": {
+      "title": "คำมั่นสัญญาของเรา",
+      "items": [
+        {
+          "title": "เทคโนโลยีที่พัฒนาเอง",
+          "description": "กรอบงานหลักพัฒนาขึ้นเองโดยสมบูรณ์ เป็นอิสระจากกรอบงานของบุคคลที่สาม"
+        },
+        {
+          "title": "จิตวิญญาณโอเพนซอร์ส",
+          "description": "กรอบงานบางส่วนเป็นโอเพนซอร์สเพื่อมีส่วนร่วมกลับคืนสู่ชุมชนนักพัฒนา"
+        },
+        {
+          "title": "นวัตกรรมอย่างต่อเนื่อง",
+          "description": "ก้าวทันแนวโน้มเทคโนโลยี ใช้เทคโนโลยีที่เสถียรล่าสุด"
+        },
+        {
+          "title": "การสนับสนุนอย่างมืออาชีพ",
+          "description": "ความเข้าใจอย่างลึกซึ้งในความต้องการของอุตสาหกรรม การให้โซลูชันที่ปรับแต่ง"
+        }
+      ]
+    },
+    "contactInfo": {
+      "email": "info@moonote.me",
+      "phone": "(+886) 02-23956600",
+      "address": "2F, No. 31, Sec. 2, Nanchang Rd., Taipei 100, Taiwan",
+      "addressChinese": "100 台北市南昌路二段31號2樓"
+    },
+    "ui": {
+      "languageToggle": "ภาษา",
+      "switchLanguage": "เปลี่ยนภาษา"
+    }
+  }
+}
