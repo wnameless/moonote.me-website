@@ -2,6 +2,10 @@
   "en": {
     "companyName": "Moonote Co., Ltd.",
     "tagline": "Building Tomorrow's Enterprise Solutions Today",
+    "hero": {
+      "learnMore": "Learn More",
+      "contactUs": "Contact Us"
+    },
     "aboutUs": {
       "title": "About Us",
       "description": "Moonote Co., Ltd. is a software technology company focused on enterprise application development frameworks and industry-specific solutions. We are committed to providing efficient, secure, and scalable information management systems for academic research institutions, medical organizations, and corporate clients."
@@ -155,6 +159,10 @@
   "zh-TW": {
     "companyName": "月本股份有限公司",
     "tagline": "打造明日企業解決方案",
+    "hero": {
+      "learnMore": "瞭解更多",
+      "contactUs": "聯繫我們"
+    },
     "aboutUs": {
       "title": "關於我們",
       "description": "月本股份有限公司是一家專注於企業級應用開發框架與行業解決方案的軟體科技公司。我們致力於為學術研究機構、醫療組織及企業客戶提供高效、安全、可擴展的資訊管理系統。"
@@ -308,6 +316,10 @@
   "zh-CN": {
     "companyName": "月本股份有限公司",
     "tagline": "打造明日企业解决方案",
+    "hero": {
+      "learnMore": "了解更多",
+      "contactUs": "联系我们"
+    },
     "aboutUs": {
       "title": "关于我们",
       "description": "月本股份有限公司是一家专注于企业级应用开发框架与行业解决方案的软件科技公司。我们致力于为学术研究机构、医疗组织及企业客户提供高效、安全、可扩展的信息管理系统。"
@@ -461,6 +473,10 @@
   "th": {
     "companyName": "Moonote Co., Ltd.",
     "tagline": "สร้างโซลูชันระดับองค์กรแห่งอนาคต",
+    "hero": {
+      "learnMore": "เรียนรู้เพิ่มเติม",
+      "contactUs": "ติดต่อเรา"
+    },
     "aboutUs": {
       "title": "เกี่ยวกับเรา",
       "description": "Moonote Co., Ltd. เป็นบริษัทเทคโนโลยีซอฟต์แวร์ที่มุ่งเน้นการพัฒนากรอบงานแอปพลิเคชันระดับองค์กรและโซลูชันเฉพาะอุตสาหกรรม เรามุ่งมั่นที่จะให้บริการระบบการจัดการข้อมูลที่มีประสิทธิภาพ ปลอดภัย และขยายได้สำหรับสถาบันวิจัยทางวิชาการ องค์กรทางการแพทย์ และลูกค้าองค์กร"
